@@ -249,20 +249,35 @@ get-childitem -recurse include "*.php" | select-string "(mail|fsockopen|pfsockop
 **Windows Event Logs**
 
 >Successful Logon (ID 4624)
+
 >Failed Logon (ID 4625)
+
 >Kerberos Authentication (ID 4768)
+
 >Kerberos Service Ticket (ID 4776)
+
 >Assignment of Administrator Rights (ID 4672)
+
 >Unknown username or password (ID 529)
+
 >Account logon time restriction violation (ID 530)
+
 >Account currently disabled (ID 531)
+
 >User account has expired (ID 532)
+
 >User not allowed to logon to the computer (ID 533)
+
 >User has not been granted the requested logon type (ID 534)
+
 >The account's password has expired (ID 535)
+
 >The NetLogon component is not active (ID 536)
+
 >The logon attempt failed for other reasons (ID 537)
+
 >Account lockout (ID 539)
+
 >Log clearing (ID 1102 and 104)
 
 
@@ -270,17 +285,23 @@ get-childitem -recurse include "*.php" | select-string "(mail|fsockopen|pfsockop
 
 *PE Capture*
 [PE Capture Service](http://www.novirusthanks.org/products/pe-capture-service/)
+
 [NoVirusThanks](http://www.novirusthanks.org/products/pe-capture/)
 
 [ProcScan](https://github.com/abhisek/RandomCode/tree/master/Malware/Process)
 > Ruby script - x86-only memory analysis
+
 [Meterpeter Payload Detection](https://github.com/DamonMohammadbagher/Meterpreter_Payload_Detection)
 > Memory anaylsis for Meterpreter sessions
 
-*Reflective Ijection Detection*
+*Reflective Injection Detection*
+
 [Reflective Injection Detection](https://github.com/papadp/reflective-injection-detection)
+
 [PowershellArsenal](https://github.com/mattifestation/PowerShellArsenal)
+
 *NTQueryInformationThread Detection*
+
 [Get-InjectedThread.ps1](https://gist.github.com/jaredcatkinson/23905d34537ce4b5b1818c3e6405c1d2)
 
 *Hash Fuzzing*
@@ -291,6 +312,7 @@ get-childitem -recurse include "*.php" | select-string "(mail|fsockopen|pfsockop
 
 *Execution Tracing*
 [ShimCacheParser](https://github.com/mandiant/ShimCacheParser)
+
 [AppCompatProcessor](https://github.com/mbevilacqua/appcompatprocessor)
 
 **Memory Analysis**
@@ -301,6 +323,8 @@ get-childitem -recurse include "*.php" | select-string "(mail|fsockopen|pfsockop
 [Kansa](https://github.com/davehull/Kansa)
 >Incident response, breach hunts, building baselines
 > Reference links [here](http://trustedsignal.blogspot.com/search/label/Kansa) and [here](http://www.powershellmagazine.com/2014/07/18/kansa-a-powershell-based-incident-response-framework/)
+
 [PSHunt](https://github.com/Infocyte/PSHunt)
 >Scan remote endpoints for IOCS
+
 [NOAH](https://github.com/giMini/NOAH)
